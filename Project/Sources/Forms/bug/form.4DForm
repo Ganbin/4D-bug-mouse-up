@@ -1,0 +1,88 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "bug",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Input": {
+					"type": "input",
+					"left": 12,
+					"top": 127,
+					"width": 165,
+					"height": 97,
+					"dataSourceTypeHint": "picture",
+					"events": [
+						"onMouseUp",
+						"onClick"
+					],
+					"method": "ObjectMethods/Input.4dm",
+					"enterable": false,
+					"focusable": false,
+					"contextMenu": "none",
+					"borderStyle": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Button": {
+					"type": "button",
+					"text": "Button",
+					"top": 245,
+					"left": 49,
+					"width": 90,
+					"height": 32,
+					"events": [
+						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"text": "In this form, the number of form object is very small and it is harder to reproduce the issue.\r\rMake sure not to have the window in front when clicking on the white area",
+					"top": 17,
+					"left": 12,
+					"width": 326,
+					"height": 77
+				}
+			}
+		}
+	],
+	"geometryStamp": 106,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}
