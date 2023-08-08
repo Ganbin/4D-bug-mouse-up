@@ -8,7 +8,7 @@ The trigger of the `On Mouse Up` depend on 2 things:
 
 
 ## How to reproduce
-1. open the bugbase.
+1. open the project.
 2. launch the `openForm` method. This will open 3 forms. All the windows will open in the same process and will be stack on top of each other, you can separate the windows to see them all in your screen.
 3. make sure to have the windows in the back by having the focus on the "Debug" window
 4. click very quickly on the white area in the "bug" window. If you click fast enough you will only see the `On Clicked` event in the debug window. But more certainly you will see both `On Clicked` and `On Mouse Up`.
